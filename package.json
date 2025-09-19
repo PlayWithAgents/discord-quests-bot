@@ -1,0 +1,15 @@
+{
+  "name": "discord-worker-interactions",
+  "version": "1.0.0",
+  "description": "Discord slash-command worker using Cloudflare Workers and KV storage.",
+  "type": "module",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev --remote",
+    "deploy": "wrangler deploy",
+    "register": "node scripts/register.js"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.3"
+  }
+}
